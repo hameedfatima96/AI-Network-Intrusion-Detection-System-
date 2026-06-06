@@ -39,15 +39,15 @@ The system analyzes network traffic features and predicts whether traffic is nor
 
 ### Main Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screennshots/dashboard.png)
 
 ### Prediction Example
 
-![Prediction](screenshots/prediction.png)
+![Prediction](screennshots/prediction.png)
 
 ### Analytics
 
-![Analytics](screenshots/analytics.png)
+![Analytics](screennshots/analytics.png)
 
 ---
 
