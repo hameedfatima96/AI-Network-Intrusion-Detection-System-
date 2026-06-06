@@ -33,7 +33,7 @@ The system analyzes network traffic features and predicts whether traffic is nor
 
 ![Architecture](architecture.png)
 
----
+
 
 ## Dashboard
 
