@@ -9,9 +9,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 
-# ----------------------------
+
 # 1. Load Dataset
-# ----------------------------
+
 
 columns = [
 'duration','protocol_type','service','flag','src_bytes',
@@ -39,9 +39,9 @@ print("Dataset Loaded Successfully!")
 print(df.head())
 
 
-# ----------------------------
+
 # 2. Preprocessing
-# ----------------------------
+
 
 # Drop unnecessary column
 df = df.drop(['difficulty'], axis=1)
@@ -56,9 +56,7 @@ for col in ['protocol_type', 'service', 'flag']:
 df['label'] = df['label'].apply(lambda x: 0 if x == 'normal' else 1)
 
 
-# ----------------------------
 # 3. Split Data
-# ----------------------------
 
 X = df.drop('label', axis=1)
 y = df['label']
@@ -68,17 +66,16 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 
-# ----------------------------
+
 # 4. Train Model
-# ----------------------------
+
 
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 
-# ----------------------------
 # 5. Evaluate Model
-# ----------------------------
+
 
 y_pred = model.predict(X_test)
 
@@ -87,9 +84,9 @@ accuracy = accuracy_score(y_test, y_pred)
 print("\nModel Accuracy:", accuracy)
 
 
-# ----------------------------
+
 # 6. Save Model
-# ----------------------------
+
 
 joblib.dump(model, "nids_model.pkl")
 
