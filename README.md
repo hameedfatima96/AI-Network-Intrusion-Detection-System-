@@ -1,4 +1,4 @@
-# 🔐 AI Network Intrusion Detection System
+#  AI Network Intrusion Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-green)
@@ -11,23 +11,23 @@ An AI-powered Network Intrusion Detection System (NIDS) developed using Machine 
 
 The system analyzes network traffic features and predicts whether traffic is normal or malicious through an interactive dashboard.
 
----
+
 
 ## Features
 
-✅ Intrusion Detection using Machine Learning
+ Intrusion Detection using Machine Learning
 
-✅ Real-Time Prediction Dashboard
+ Real-Time Prediction Dashboard
 
-✅ Security Analytics
+ Security Analytics
 
-✅ Attack Logging System
+ Attack Logging System
 
-✅ Confidence Score Estimation
+ Confidence Score Estimation
 
-✅ Streamlit Web Interface
+ Streamlit Web Interface
 
----
+
 
 ## System Architecture
 
@@ -49,61 +49,60 @@ The system analyzes network traffic features and predicts whether traffic is nor
 
 ![Analytics](screennshots/analytics.png)
 
----
+
 
 ## Dataset
 
 NSL-KDD Dataset
-
 Network traffic features:
-- Protocol Type
-- Service
-- Connection Flags
-- Source Bytes
-- Destination Bytes
-- Connection Counts
-- Many additional security indicators
+Protocol Type
+Service
+Connection Flags
+Source Bytes
+Destination Bytes
+Connection Counts
+Many additional security indicators
 
----
+
 
 ## Technologies Used
 
-- Python
-- Streamlit
-- Scikit-Learn
-- Pandas
-- NumPy
-- Joblib
+Python
+Streamlit
+Scikit-Learn
+Pandas
+NumPy
+Joblib
 
----
+
 
 ## Installation
 
-```bash
+'''bash
 pip install -r requirements.txt
-```
+'''
 
 Run:
 
-```bash
+'''bash
 streamlit run app/app.py
-```
+'''
 
 ## Results
 
 Model Accuracy:
 
-```text
+'''text
 99.86%
-```
+'''
 
 ## Future Work
 
-- Deep Learning Models
-- Real-Time Packet Capture
-- Cloud Deployment
-- Explainable AI (XAI)
-- SOC Dashboard Integration
+Deep Learning Models
+Real-Time Packet Capture
+Cloud Deployment
+Explainable AI (XAI)
+SOC Dashboard Integration
 
 ## Author
 
