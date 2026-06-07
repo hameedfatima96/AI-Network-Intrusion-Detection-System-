@@ -12,8 +12,7 @@ An AI-powered Network Intrusion Detection System (NIDS) developed using Machine 
 The system analyzes network traffic features and predicts whether traffic is normal or malicious through an interactive dashboard.
 
 
-
-## Features
+ ## Features
 
  Intrusion Detection using Machine Learning
 
